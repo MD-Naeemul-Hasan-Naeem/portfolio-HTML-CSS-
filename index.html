@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <!----Navbar-->
+    <nav>
+        <div class="left">
+            <a href="/">MD. Naeemul Hasan Naeem</a>
+        </div>
+        <div class="right">
+            <a href="https://github.com/MD-Naeemul-Hasan-Naeem" target="_blank" rel="no-referrer">
+                <i class="fa-brands fa-github"></i>
+                <span>github</span>
+            </a>
+
+            <a href="https://www.linkedin.com/in/md-naeemul-hasan-naeem-75468a364/" target="_blank" rel="no-referrer">
+                <i class="fa-brands fa-linkedin"></i>
+                <span>linkedin</span>
+            </a>
+
+            <a href="mailto:21303024@iubat.edu">
+                <i class="fa-solid fa-envelope"></i>
+                <span>Email</span>
+            </a>
+        </div>
+    </nav>
+
+    <main>
+        <!-----section1-Hero-->
+        <section class="hero-section">
+            <div class="text">
+                <h2>Hi, I'm Naeem</h2>
+                <p>
+                    Welcome to my portfolio! I'm a driven and curious individual with a passion for turning ideas into reality. Whether it's through design, development, strategy, or storytelling, I focus on creating impactful work that reflects my personality, skills, and vision.
+
+                    Here, you'll find a collection of my favorite projects, each one crafted with intention and creativity. I'm always learning, always growing, and always ready for the next challenge.
+
+                    Let’s build something meaningful together.
+                </p>
+                <div class="link">
+                    <a href="#skills">
+                    <i class="fa-solid fa-code"></i>
+                    <span>skills</span>
+                    </a>
+
+                    <a href="#testimony">
+                    <i class="fa-solid fa-pen"></i>
+                    <span>Testimony</span>
+                    </a>
+
+                    <a href="#contact">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>contact</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="headshot">
+                <img src="/photos/IMG_0916.png" alt="Naeem headshot">
+            </div>
+        </section>
+
+        <!-----section2-skills-->
+        <section id="skills" class="skills-section">
+            <h2>Skills</h2>
+            <div class="text">
+                I have a solid foundation in computer science with hands-on experience in programming languages such as C, C++, C#, Python, and Java. My technical proficiency extends to database management using MySQL and SQL Server, along with strong front-end web development skills in HTML and CSS. I'm familiar with basic version control using Git and have experience with browser debugging. In addition to technical capabilities, I bring strong communication skills, adaptability, and a collaborative spirit. I excel in teamwork, academic leadership, and problem-solving, with a proactive approach to learning new technologies and delivering quality results.
+
+            </div>
+            <div class="cells">
+                <div class="cell">
+                    <img src="photos/html.jpg" alt="html logo">
+                    <span>HTML</span>
+                </div>
+
+                <div class="cell">
+                    <img src="photos/css.png" alt="css logo">
+                    <span>CSS</span>
+                </div>
+
+                <div class="cell">
+                    <img src="photos/javascript.png" alt="javascript logo">
+                    <span>JAvaScript</span>
+                </div>
+
+                <div class="cell">
+                    <img src="photos/dotnet.png" alt=".NET logo">
+                    <span>.NET</span>
+                </div>
+
+            </div>
+        </section>
+
+        <!-----section3-testimony-->
+        <section id="testimony" class="testimony-section">
+            <h2>Testimony</h2>
+
+            <div class="group">
+                <div class="person-details">
+                    <img src="photos/naeem.JPG">
+                    <p>MD. Naeemul Hasan Naeem</p>
+                    <p>Dhaka,Bangladesh</p>
+                </div>
+            
+
+            <div class="text">
+               <p> Nayeem is a dedicated and insightful individual with a strong grasp of both theoretical and practical aspects of computer science. His curiosity, willingness to learn, and collaborative nature set him apart. Whether it's coding, designing, or problem-solving, he approaches each task with focus and creativity. He has consistently demonstrated a growth mindset and the ability to adapt quickly to new challenges, making him a valuable contributor to any academic or professional environment.</p>
+
+                — Shahinur Alam, Senior Lecturer & Coordinator, BCSE (IUBAT)
+            </div>
+            </div>
+
+        </section>
+
+        <!-----section4-contact-->
+        <section id="contact" class="contact-section">
+            <h2>Contact</h2>
+            <div class="group">
+                <div class="text">
+                    If you'd like to connect, collaborate, or have any inquiries, feel free to reach out to me. You can email me at 21303024@iubat.edu or call me directly at +8801700583361. I'm also active on GitHub and LinkedIn, where I regularly share my projects and professional updates. I’m always open to learning, collaborating, and exploring exciting opportunities in the field of technology.
+
+                </div>
+                <form >
+                    <label for="name">Name</label>
+                    <input type="text" id="name">
+
+                    <label for="email">Mail</label>
+                    <input type="email" id="email">
+
+                     <label for="message">Message</label>
+                     <textarea id="message" cols="30" rows="10"></textarea>
+                     <button type="submit">Send Message</button>
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+</body>
+</html>
